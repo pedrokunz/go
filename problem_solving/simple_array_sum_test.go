@@ -13,7 +13,7 @@ func ExampleSimpleArraySum() {
 	// Output: 15
 }
 
-func Test_SimpleArraySum(t *testing.T) {
+func TestSimpleArraySum(t *testing.T) {
 	type args struct {
 		ar []int32
 	}
