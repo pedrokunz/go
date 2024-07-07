@@ -1,6 +1,7 @@
 package problem_solving
 
 import (
+	"fmt"
 	"math"
 	"reflect"
 	"testing"
@@ -10,7 +11,7 @@ func ExampleCompareTriplets() {
 	tripletA := []int32{5, 6, 7}
 	tripletB := []int32{3, 6, 10}
 	result := CompareTriplets(tripletA, tripletB)
-	println(result)
+	fmt.Println(result)
 	// Output: [1 1]
 }
 

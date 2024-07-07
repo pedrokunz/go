@@ -1,6 +1,7 @@
 package problem_solving
 
 import (
+	"fmt"
 	"math"
 	"testing"
 )
@@ -8,7 +9,7 @@ import (
 func ExampleSimpleArraySum() {
 	array := []int32{1, 2, 3, 4, 5}
 	result := SimpleArraySum(array)
-	println(result)
+	fmt.Println(result)
 	// Output: 15
 }
 

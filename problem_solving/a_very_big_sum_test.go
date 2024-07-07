@@ -1,6 +1,7 @@
 package problem_solving
 
 import (
+	"fmt"
 	"math"
 	"testing"
 )
@@ -8,7 +9,7 @@ import (
 func ExampleAVeryBigSum() {
 	array := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
 	result := AVeryBigSum(array)
-	println(result)
+	fmt.Println(result)
 	// Output: 5000000015
 }
 
