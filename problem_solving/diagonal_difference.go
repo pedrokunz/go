@@ -1,7 +1,10 @@
 package problem_solving
 
 // DiagonalDifference calculates the absolute difference between the sums of the diagonals of a square matrix
-// The function receives a slice of slices of int32
+// The function receives a slice of slices of int32, representing a square matrix,
+// and returns an int32 with the absolute difference.
+// The left diagonal is the diagonal that goes from the top left to the bottom right of the matrix.
+// The right diagonal is the diagonal that goes from the bottom left to the top right of the matrix.
 func DiagonalDifference(matrix [][]int32) int32 {
 	var (
 		leftDiagonalSum, rightDiagonalSum int32
