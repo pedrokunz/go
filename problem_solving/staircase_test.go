@@ -8,7 +8,8 @@ import (
 func ExampleStaircase() {
 	result := Staircase(6)
 	fmt.Println(result)
-	// Output:      #
+	// Output:
+	//      #
 	//     ##
 	//    ###
 	//   ####
